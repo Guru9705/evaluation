@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <script src='main.js'></script>
+</head>
+<style>
+    .nav{
+        background-color: white;
+        position: sticky;
+        top: 0;
+        height: 80px;
+        padding: 10px;
+    }
+    .lis{
+        color: black;
+        display: inline;
+        text-align: right;
+        margin: 30px;
+        font-size: 18px;
+    }
+    svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    margin-right: 10px;
+   }
+    .list{
+        position: absolute;
+        top:20px;
+        margin-left:600px;
+        display: inline;
+    }
+   .filters{
+       float: right;
+       margin-top: 34px;
+       display: inline;
+   }
+  
+    .offer{
+        display: flex;
+        background-color: rgb(46, 43, 43);
+    }
+    .offer div img{
+        padding:20px;
+        height:200px;
+        width:200px;
+        margin:30px;
+    }
+
+    .fi{
+        display: inline;
+        margin:10px
+    }
+    .res-1{
+        display: inline;
+        margin-right: 420px;
+    }
+   
+    .nav-2{
+        height:60px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 10px;
+     }
+     .grid-container div img{
+         height: 240px;
+         width:240px;
+     }
+</style>
+<body>
+    <div class="nav">
+        <div style="display: flex;">
+            <img src="./swiggy.png" style="margin-left: 40px;" height="80px" alt="">
+            <div style="margin-top: 35px;"><b style="text-decoration:underline">Ahmedabad</b> Gujarat,India</div>
+        </div>
+       
+        <ul class="list">
+            <li class="lis"><i class="fas fa-search"></i>Search</li>
+            <li class="lis"><i class="fas fa-percent"></i>Offers</li>
+            <li class="lis"><i class="far fa-life-ring"></i>Help</li>
+            <li class="lis"><i class="fas fa-user"></i>Sign In</li>
+            <li class="lis"><i class="fas fa-shopping-bag"></i>Cart</li>
+          </ul>          
+    </div>
+    <div class="offer">
+        <div><img src="./offer1.jpeg" alt=""></div>
+        <div><img src="./offer2.jpeg" alt=""></div>
+        <div><img src="./offer3.jpeg" alt=""></div>
+        <div><img src="./offer4.jpeg" alt=""></div>
+    </div>
+    <div class="res">
+     <div class="nav-2">
+         <!-- <ul class="res-1">
+             <li class="fi"><h2>1400 Restaraunts</h2></li>
+         </ul> -->
+        <!-- <div style="display: inline;margin-top: 30px;"></div> -->
+        <ul class="filters">
+            <li class="res-1"><b style="font-size: 16.5px;">1400 Restaraunts</b></li>
+            <li class="fi">Relevance</li>
+            <li class="fi">Delivery time</li>
+            <li class="fi">Rating</li>
+            <li class="fi">Cost:Low to High</li>
+            <li class="fi">Cost:High to Low</li>
+            <li class="fi">Cost:High to Low</li>
+            <li class="fi"><b>Filter</b></li>
+          </ul>          
+     </div>
+     <hr/>
+     <div class="grid-container">
+        <div><img src="./restaurant1.jpeg"></div>
+        <div><img src="./restaurant2.jpeg"></div>
+        <div><img src="./restaurant3.jpeg"></div>
+        <div><img src="./restaurant4.jpeg"></div>
+        <div><img src="./restaurant5.jpeg"></div>
+        <div><img src="./restaurant6.jpeg"></div>
+        <div><img src="./restaurant7.jpeg"></div>
+        <div><img src="./restaurant8.jpeg"></div>
+        <div><img src="./restaurant9.jpeg"></div>
+        <div><img src="./restaurant10.jpeg"></div>
+      </div>      
+    </div>
+</body>
+</html>
